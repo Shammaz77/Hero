@@ -159,4 +159,9 @@
 	.text-main-hero {
     font-size: 40px;
 	}
+	.nav-item-dv i{
+		color: #9296a1;
+		font-weight: 500;
+		font-size: px;
+	}
 }
