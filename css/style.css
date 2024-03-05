@@ -99,7 +99,7 @@
 	padding-top: 50px;
 }
 .first-img{
-	background-color: #219653;
+
 	width: 150px;
 	border-radius: 70px;
 	margin-bottom: 20px;
@@ -111,8 +111,21 @@
 .col-one , .col-two ,.col-three{
 	padding-right: 15px;
 }
-
-
+.one{
+	background-color: #6E1FED;
+}
+.two{
+	background-color: #219653;
+}
+.three{
+	background-color: #60D3D9;
+}
+.four{
+	background-color: #FF7E29;
+}
+.five{
+	background-color: #F4B840;
+}
 
 @media (min-width: 1700px) {
 	.container-main {
