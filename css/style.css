@@ -1,0 +1,149 @@
+.navbar-main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0px;
+}
+.nav-item-dv{
+	display: flex;
+}
+.nav-item-dv li{
+	padding: 0px 20px;
+}
+.nav-item-dv li a{
+	color: #5F6167;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+}
+.active-nav{
+	border-bottom: 2px solid #219653;
+	padding-bottom: 5px;
+	color: #D9DADC !important;
+}
+.item-nav:hover{
+	border-bottom: 2px solid #219653;
+	padding-bottom: 5px;
+	color: #D9DADC !important;
+}
+.logo-txt{
+	color: #219653;
+}
+.get-start{
+	padding: 8px 35px !important;
+	font-size: 14px !important;
+	font-family: "Poppins", sans-serif;
+	border-radius: 9px 9px 9px 0px !important;
+}
+.learn-more{
+	color: #fff;
+	border: none !important;
+	font-size: 14px !important;
+	outline: none !important;
+	font-weight: 500 !important;
+	text-decoration: underline !important;
+	font-family: "Poppins", sans-serif;
+}
+.learn-more:hover{
+	color: #fff !important;
+}
+.button-dv i{
+	font-size: 17px;
+	/* margin-top: 5px; */
+	color: #fff !important;
+	text-decoration: none !important;
+}
+.nav-item-dv i{
+	color: #5F6167;
+	font-weight: 500;
+}
+.txt-grey{
+	color: #5F6167;
+	font-weight: 500;
+	line-height: 1.3;
+	font-size: 14px;
+	padding-top: 15px;
+	font-family: "Poppins", sans-serif;
+}
+.hero-section{
+	padding-top: 70px;
+}
+.button-dv{
+	padding: 20px 0px;
+}
+.text-main-hero{
+	font-size: 45px;
+}
+.icon-img{
+	width: 45px;
+	padding: 5px 7px;
+	border-radius: 10px;
+	background-color: #464751;
+}
+.txt-icon{
+	padding-left: 8px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.2 !important;
+	font-family: "Poppins", sans-serif;
+}
+.iconn{
+	display: flex;
+}
+.icon-left{
+	padding-left: 20px;
+}
+.icon-dv{
+	display: flex;
+	padding-top: 50px;
+}
+.first-img{
+	background-color: #219653;
+	width: 150px;
+	border-radius: 70px;
+	margin-bottom: 20px;
+}
+.inner-box-hero-second{
+	display: flex;
+	align-items: center;
+}
+.col-one , .col-two ,.col-three{
+	padding-right: 15px;
+}
+
+
+
+@media (min-width: 1700px) {
+	.container-main {
+		width: 80%;
+		margin: auto;
+	}
+}
+@media (max-width: 991px) {
+	.icon-dv {
+    display: block;
+    padding-top: 30px;
+	}
+	.icon-left {
+    padding-left: 0px;
+		padding-top: 17px;
+	}
+	.items-section .nav-item-dv li{
+		display: none;
+	}
+	.first-img {
+		width: 100%;
+	}
+	.inner-box-hero-second{
+		margin-top: 50px;
+	}
+	.menulogo{
+		display: block;
+		}
+}
+@media (max-width: 550px) {
+	.text-main-hero {
+    font-size: 40px;
+	}
+}
